@@ -1,6 +1,6 @@
 {
   "name": "bool-is-bool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if a value that seems a bool, is really a bool :)",
   "main": "src/index.js",
   "repository": "https://github.com/finkinfridom/bool-is-bool",
