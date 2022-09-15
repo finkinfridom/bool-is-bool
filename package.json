@@ -1,0 +1,18 @@
+{
+  "name": "bool-is-bool",
+  "version": "1.0.0",
+  "description": "Check if a value that seems a bool, is really a bool :)",
+  "main": "src/index.js",
+  "repository": "https://github.com/finkinfridom/bool-is-bool",
+  "author": "Alberto Maghini <a.maghini@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha __tests__/**/*.js",
+    "watch": "DEBUG=bool-is-bool mocha __tests__/**/*.js --watch"
+  },
+  "devDependencies": {
+    "debug": "^4.3.4",
+    "mocha": "^10.0.0",
+    "supports-color": "^9.2.3"
+  }
+}
