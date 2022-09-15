@@ -11,8 +11,8 @@
     "watch": "DEBUG=bool-is-bool mocha __tests__/**/*.js --watch"
   },
   "devDependencies": {
-    "debug": "^4.3.4",
-    "mocha": "^10.0.0",
-    "supports-color": "^9.2.3"
+    "debug": "4.3.4",
+    "mocha": "10.0.0",
+    "supports-color": "9.2.3"
   }
 }
