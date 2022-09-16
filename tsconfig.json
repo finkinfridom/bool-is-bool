@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "sourceMap": true,
+    "target": "es2015",
+    "outDir": "dist",
+    "isolatedModules": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
