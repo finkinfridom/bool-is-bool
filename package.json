@@ -16,10 +16,10 @@
     "pack": "tsc"
   },
   "devDependencies": {
-    "@types/chai": "4.3.3",
+    "@types/chai": "4.3.4",
     "@types/debug": "4.1.7",
     "@types/mocha": "10.0.0",
-    "chai": "4.3.6",
+    "chai": "4.3.7",
     "debug": "4.3.4",
     "mocha": "10.1.0",
     "supports-color": "9.2.3",
