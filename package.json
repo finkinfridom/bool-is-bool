@@ -13,7 +13,8 @@
   "scripts": {
     "test": "mocha -r ts-node/register ./__tests__/*.spec.ts",
     "watch": "DEBUG=bool-is-bool mocha -r ts-node/register ./__tests__/*.spec.ts --watch",
-    "pack": "tsc"
+    "pack": "tsc",
+    "push:cov": "yarn test && docker run -v $PWD:/code codacy/codacy-coverage-reporter report --coverage-reports /code/coverage/lcov.info"
   },
   "devDependencies": {
     "@types/chai": "4.3.9",
