@@ -7,6 +7,7 @@
   "files": [
     "/dist"
   ],
+  "type": "module",
   "repository": "https://github.com/finkinfridom/bool-is-bool",
   "author": "Alberto Maghini <a.maghini@gmail.com>",
   "license": "MIT",
@@ -22,6 +23,7 @@
     "@types/chai": "4.3.11",
     "@types/debug": "4.1.12",
     "@types/mocha": "10.0.6",
+    "@types/node": "^20.11.16",
     "chai": "5.0.3",
     "debug": "4.3.4",
     "mocha": "10.2.0",
